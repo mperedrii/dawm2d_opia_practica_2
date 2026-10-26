@@ -1,4 +1,15 @@
-# TODO: Las dependencias para ejecutar app.py en producción.
-# Puedes incluir las necesarias para entrenar el modelo tambien.
-# Revisa los imports de app.py y decide cuáles son necesarias.
+# Dependencias para ejecutar app.py en producción (Render) y entrenar el modelo.
 
+# Servicio web
+fastapi==0.162.0
+uvicorn==0.54.0
+pydantic==2.14.1
+
+# Descarga del modelo y medir_tiempos.py
+requests==2.34.2
+
+# Carga del modelo y predicción
+joblib==1.6.0
+pandas==3.1.0
+numpy==2.5.4
+scikit-learn==1.9.1

@@ -20,8 +20,8 @@ from pydantic import BaseModel
 
 MODEL_PATH = "modelo_california.pkl"
 # TODO: URL "raw" del modelo en TU repositorio de GitHub. Formato:
-# https://raw.githubusercontent.com/<usuario>/<repositorio>/main/modelo_california.pkl
-MODEL_URL = "https://raw.githubusercontent.com/<usuario>/<repositorio>/main/modelo_california.pkl"
+# https://raw.githubusercontent.com/mperedrii/dawm2d_opia_practica_2/main/modelo_california.pkl
+MODEL_URL = "https://raw.githubusercontent.com/mperedrii/dawm2d_opia_practica_2/main/modelo_california.pkl"
 DOWNLOAD_TIMEOUT = 30  # segundos
 
 # El modelo se carga al arrancar y se guarda aquí.
