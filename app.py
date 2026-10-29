@@ -47,8 +47,10 @@ def download_model(url: str = MODEL_URL, path: str = MODEL_PATH):
     resultado con response.raise_for_status() y escribe response.content en
     el fichero abriéndolo en modo binario ("wb").
     """
-    # TODO: implementa la descarga
-    raise NotImplementedError("Completa download_model()")
+    response = requests.get(url, timeout=DOWNLOAD_TIMEOUT)
+    response.raise_for_status()
+    with open(path, "wb") as f:
+        f.write(response.content)
 
 
 def load_model(path: str = MODEL_PATH):
