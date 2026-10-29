@@ -2,13 +2,14 @@
 
 Solo tienes que completar las partes marcadas con TODO.
 El resto del código ya está hecho.
-Autores: <nombre1>, <nombre2>
+Autores: Andrés Córdoba, Mykola Peredrii
 
 Ejecución en local (con modelo_california.pkl generado en el ejercicio 1):
     uvicorn app:app --reload
 Comando de arranque en Render (Start Command):
     uvicorn app:app --host 0.0.0.0 --port $PORT
 """
+
 import os
 from contextlib import asynccontextmanager
 
@@ -30,6 +31,7 @@ state = {"model": None}
 
 class HouseFeatures(BaseModel):
     """Variables de entrada del modelo (una zona censal)."""
+
     MedInc: float
     HouseAge: float
     AveRooms: float

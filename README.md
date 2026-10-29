@@ -2,7 +2,7 @@
 
 <!-- TODO: documento de 10-20 líneas de texto añadido -->
 
-Autores: <nombre1>, <nombre2>
+Autores: Andrés Córdoba, Mykola Peredrii
 
 ## Contenido del repositorio
 
