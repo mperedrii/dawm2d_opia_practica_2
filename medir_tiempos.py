@@ -13,7 +13,7 @@ import time
 import requests
 
 # TODO: URL pública de tu servicio en Render (sin barra final)
-BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://<tu-servicio>.onrender.com"
+BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://dawm2d-opia-practica-2.onrender.com"
 TIMEOUT = 60  # segundos
 
 SAMPLE = {
